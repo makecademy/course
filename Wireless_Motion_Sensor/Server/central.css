@@ -1,0 +1,52 @@
+.on {
+	width: 40px; 
+	height: 40px; 
+	background-color: #FFAE00;
+	float: right;
+	border-radius: 10px;
+}
+
+#central {
+	width: 300px;
+	margin: auto;
+}
+
+.off {
+	width: 40px; 
+	height: 40px; 
+	background-color: #EEEEEE;
+	float: right;
+	border-radius: 10px;
+}
+
+.device {
+	width: 250px;
+	font-size: 30px;
+	margin: 20px;
+	margin-left: 20px;
+}
+
+.device_title {
+	width: 250px;
+	font-size: 36px;
+	margin: 10px;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.device {
+		width: 90%;
+	}
+
+	.device_title {
+		width: 95%;
+	}
+
+	#central {
+		width: 95%;
+	}
+}
